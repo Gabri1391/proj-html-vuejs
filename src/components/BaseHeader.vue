@@ -1,0 +1,127 @@
+<template>
+  <header>
+    <div class="container">
+        <div class="header-bar d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="../assets/images/logo.png" alt="logo">
+            </div>
+            <div class="navbar">
+                <ul class="d-flex">
+                    <li v-for="item in items" :key="item.id">
+                        <img :src="item.url" alt="">
+                         {{item.text}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="welcome">
+        <div class="welcome-text">
+           <div class="title"><i>Friendly Atmosphere</i></div>
+           <div class="h1">Welcoming Place</div>
+           <div class="subtitle"><i>For Every Child</i></div>
+        </div>
+        <button>BUY THIS THEME NOW</button>
+        <figure>
+            <img src="../assets/images/slider_slide2_img1.png" alt="kid">
+            <img src="../assets/images/slider_slide2_img2.png" alt="kid">
+        </figure>
+    </section>
+    <section class="beige"></section>
+   
+
+  </header>
+</template>
+
+<script>
+export default {
+    name: 'BaseHeader',
+    data(){
+        return{
+           items:[
+             {"id": "1", "url": "../assets/icons/home.png", "text": "Home"},
+             {"id": "2", "url": "../assets/icons/document.png", "text": "Pages"},
+             {"id": "3", "url": "../assets/icons/printer.png", "text": "Blog"},
+             {"id": "4", "url": "../assets/icons/cart.png", "text": "Shop"},
+             {"id": "5", "url": "../assets/icons/lab.png", "text": "Shortcode"},
+             {"id": "6", "url": "../assets/icons/chat.png", "text": "Support"},
+             {"id": "7", "url": "../assets/icons/envelope.png", "text": "Contact"}
+             
+           ],
+
+        }
+    }
+
+}
+</script>
+
+<style lang="scss" scoped>
+  .header-bar{
+    height: 100px;
+
+    img{
+        width: 180px;
+    }
+
+    .navbar{
+        li{
+            padding: 10px;
+            color: #554e9e;
+            font-size: 1.2rem;
+        }
+    }
+  }
+
+    .welcome{
+        background-color: #E3F0FB;
+        height: 450px;
+        position: relative;
+
+        .welcome-text{
+            position: absolute;
+            left: 110px;
+            top: 150px;
+
+            .title{
+                font-size: 2rem;
+                color: #fe6601;
+            }
+
+            .h1{
+                color: #554e9e;
+                font-weight: 700;
+                font-size: 3.2rem;
+            }
+
+            .subtitle{
+                font-size: 3rem;
+                color: #554e9e;
+            }
+        }
+
+        button{
+            background-color: #fe6601;
+            color: #fff;
+            width: 200px;
+            height: 50px;
+            padding: 5px;
+            position: absolute;
+            left: 110px;
+            top: 350px;
+            z-index: 1;
+        }
+
+        figure{
+            position: absolute;
+            right: 100px;
+            z-index: 1;
+        }
+
+    }
+        .beige{
+            height: 200px;
+            position: relative;
+            top: -80px;
+            background-color: #EAF0E9;
+        }
+</style>
