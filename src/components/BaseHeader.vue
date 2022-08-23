@@ -28,6 +28,10 @@
         </figure>
     </section>
     <section class="beige"></section>
+     <div class="banner d-flex justify-content-around align-items-center">
+        <div>How to Enroll Your Child into a Class?</div>
+        <button class="info-button"> LEARN MORE  ></button>
+    </div>
    
 
   </header>
@@ -102,6 +106,7 @@ export default {
         button{
             background-color: #fe6601;
             color: #fff;
+            border: 1px solid #fe6601;
             width: 200px;
             height: 50px;
             padding: 5px;
@@ -121,7 +126,30 @@ export default {
         .beige{
             height: 200px;
             position: relative;
-            top: -80px;
+            bottom: 80px;
             background-color: #EAF0E9;
+        }
+
+        .banner{
+            height: 150px;
+            background-color: #554e9e;
+            position: relative;
+            bottom: 80px;
+
+            div{
+                color: #fff;
+                font-size: 2.3rem;
+            }
+
+            .info-button{
+            background-color: #554e9e;
+            color: #fff;
+            border: 1px solid #fff;
+            width: 200px;
+            height: 50px;
+            padding: 5px;
+            }
+
+
         }
 </style>
