@@ -1,5 +1,6 @@
 <template>
   <header>
+    <!-- Header top -->
     <div class="container">
         <div class="header-bar d-flex justify-content-between align-items-center">
             <div class="logo">
@@ -15,6 +16,8 @@
             </div>
         </div>
     </div>
+    
+    <!-- Header bottom -->
     <section class="welcome">
         <div class="welcome-text">
            <div class="title"><i>Friendly Atmosphere</i></div>
