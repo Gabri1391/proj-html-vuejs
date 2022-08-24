@@ -2,38 +2,38 @@
   <main>
     <!-- section introduction -->
     <section class="introduction">
-        <div class="text-center">Welcome to Fable</div>
+        <div class="title text-center">Welcome to Fable</div>
         <h5 class="text-center text-secondary mt-3">Fable daycare,preschool and kindergarten</h5>
         <figure>
-          <img src="../assets/images/header_divider.png" alt="divider">
+          <img src="/images/header_divider.png" alt="divider">
         </figure>
 
     <!-- section rounded card -->
         <ul class="d-flex justify-content-center my-5">
             <li class="flex-column card-description p-3">
                 <figure class="odd">
-                    <img  class="mt-2" src="../assets/images/schoolbag_alt.png" alt="schoolbag">
+                    <img  class="mt-2" src="/images/schoolbag_alt.png" alt="schoolbag">
                 </figure>
                 <h3>Morbi etos</h3> 
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta recusandae assumenda aliquid vitae suscipit iusto doloribus nemo laudantium. Mollitia laborum odio quo suscipit id sint illum ullam nemo cumque vero!</p>
             </li>
             <li class="flex-column card-description p-3">
                 <figure class="even">
-                    <img class="mt-2" src="../assets/images/stroller_alt.png" alt="stroller">
+                    <img class="mt-2" src="/images/stroller_alt.png" alt="stroller">
                 </figure>
                 <h3>Congue Gravida</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta recusandae assumenda aliquid vitae suscipit iusto doloribus nemo laudantium.</p>
             </li>
             <li class="flex-column card-description p-3">
                 <figure class="odd">
-                    <img class="mt-2" src="../assets/images/globe_alt.png" alt="globe">
+                    <img class="mt-2" src="/images/globe_alt.png" alt="globe">
                 </figure>
                 <h3>Praesent Morbi</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </li>
             <li class="flex-column card-description p-3">
                 <figure class="even">
-                    <img class="mt-2" src="../assets/images/bell_alt.png" alt="bell">
+                    <img class="mt-2" src="/images/bell_alt.png" alt="bell">
                 </figure>
                 <h3>Maecenas node</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta recusandae Mollitia laborum odio quo suscipit id sint illum ullam nemo cumque vero!</p>
@@ -47,22 +47,22 @@
             <div class="col-6 pt-5 pb-5">
                 <button class="text-white orange">Overview</button>
                 <button class="text-secondary">Mission</button>
-                <h4 class="pt-3">Our philosopy is learning through play as we offer stimulating environment for children.</h4>
+                <h4 class="pt-3 title">Our philosopy is learning through play as we offer stimulating environment for children.</h4>
                 <div class="d-flex mt-5">
                    <div class="small-rounded orange me-3">
-                   <img src="../assets/images/clock_alt.png" alt="clock">
+                        <img class="mt-4" src="/images/clock_alt.png" alt="clock">
                    </div>
                    <div>
-                   <h4>Full day Session</h4>
+                   <h4 class="title">Full day Session</h4>
                    <p class="text-secondary">The staff are very friendly and helpful all the time.</p>
                    </div>
                 </div>
                 <div class="d-flex mt-5">
                    <div class="small-rounded orange me-3">
-                   <img src="../assets/images/clock_alt.png" alt="clock">
+                        <img class="mt-4" src="/images/clock_alt.png" alt="clock">
                    </div>
                    <div>
-                   <h4>Varied Classes</h4>
+                   <h4 class="title">Varied Classes</h4>
                    <p class="text-secondary">The place is bigger than it looks from the outside.</p>
                    </div>
                 </div>
@@ -70,19 +70,83 @@
             <!-- Slider -->
             <div class="col-6 pb-5">
                  <div class="mt-5" id="slider">
-                    <img class="main-img" src="../assets/images/gallery_08-690x506.jpg" alt="teacher with a kid">
-                    <img class="arrow prev" src="../assets/images/slider_previous.png" alt="previous">
-                    <img class="arrow next" src="../assets/images/slider_next.png" alt="next">
+                    <img class="main-img" src="/images/gallery_08-690x506.jpg" alt="teacher with a kid">
+                    <img class="arrow prev" src="/images/slider_previous.png" alt="previous">
+                    <img class="arrow next" src="/images/slider_next.png" alt="next">
                  </div>
                  <div id="thumbnails">
-                    <img src="../assets/images/gallery_07-690x506.jpg" alt="kids">
-                    <img src="../assets/images/gallery_01.jpg" alt="kids">
-                    <img src="../assets/images/gallery_08-690x506.jpg" alt="teacher with a kid">
+                    <img src="/images/gallery_07-690x506.jpg" alt="kids">
+                    <img src="/images/gallery_01.jpg" alt="kids">
+                    <img src="/images/gallery_08-690x506.jpg" alt="teacher with a kid">
                  </div>
             </div>
         </div>
     </section>
+    <!-- Cards section -->
+    <section class="cards-sections container pb-5">
+        <div class="title text-center mt-5">Our Classes</div>
+        <h5 class="text-center text-secondary mt-3">Our preschool programm has four dedicated classes</h5>
+        <figure>
+          <img src="/images/header_divider.png" alt="divider">
+        </figure>
+
+        <div class="row ">
+            <div class="col-6">
+                <h3 class="pt-5">We provived four classes from nine to twenty childrent each aged from twelve month to five years of age. </h3>
+                <div class="card border border-warning border-4 d-flex flex-row mt-5">
+                    <div class="schedule bg-warning w-50 h-50">
+                        <div class="text-white fs-3 ps-3 pt-3">Little Lamb</div>
+                        <div class="text-secondary fs-6 ps-3 pb-5">Class Name</div>
+                        <div class=" d-flex pt-2">
+                            <div class="ps-3 pe-5 text-white">12-24 <br> Months old </div>
+                            <div class="ps-6 text-white">9 <br> Class size</div>
+                        </div>
+                    </div>
+                   <img class="img-fluid w-50 h-50" src="/images/gallery_04-690x506.jpg" alt="">
+                </div>
+
+                 <div class="card border border-warning border-4 d-flex flex-row mt-5">
+                    <div class="schedule bg-warning w-50 h-50">
+                        <div class="text-white fs-3 ps-3 pt-3">Tenderhearts</div>
+                        <div class="text-secondary fs-6 ps-3 pb-5">Class Name</div>
+                        <div class=" d-flex pt-2">
+                            <div class="ps-3 pe-5 text-white">3-4 <br> Years old </div>
+                            <div class="ps-6 text-white">9 <br> Class size</div>
+                        </div>
+                    </div>
+                   <img class="img-fluid w-50 h-50" src="/images/class_03-690x506.jpg" alt="">
+                </div>  
+            </div>
+            <div class="col-6">
+                <div class="text-secondary fs-6 pt-5">Praesent arcu gravida vehicula est node maecenas loareet morbi a dosis luctus. Urna eget lacinia eleifend praesent luctus a arcu quis facilisis venenatis. Aenean interdum, nibh vitae sodales, magna ante feugiat elit maecenas.</div>
+                 <div class="card border border-warning border-4 d-flex flex-row mt-5">
+                    <div class="schedule bg-warning w-50 h-50">
+                        <div class="text-white fs-3 ps-3 pt-3">Bouncy Bears</div>
+                        <div class="text-secondary fs-6 ps-3 pb-5">Class Name</div>
+                        <div class=" d-flex pt-2">
+                            <div class="ps-3 pe-5 text-white">2-3 <br> Years old </div>
+                            <div class="ps-6 text-white">9 <br> Class size</div>
+                        </div>
+                    </div>
+                   <img class="img-fluid w-50 h-50" src="/images/class_02-690x506.jpg" alt="">
+                </div>
+
+                 <div class="card border border-warning border-4 d-flex flex-row mt-5">
+                    <div class="schedule bg-warning w-50 h-50">
+                        <div class="text-white fs-3 ps-3 pt-3">Shining Stars</div>
+                        <div class="text-secondary fs-6 ps-3 pb-5">Class Name</div>
+                        <div class=" d-flex pt-2">
+                            <div class="ps-3 pe-5 text-white">4-5 <br> Years old </div>
+                            <div class="ps-6 text-white">20 <br> Class size</div>
+                        </div>
+                    </div>
+                   <img class="img-fluid w-50 h-50" src="/images/class_04-690x506.jpg" alt="">
+                </div>  
+            </div>
+        </div>
+    </section>
   </main>
+  
 </template>
 
 <script>
@@ -93,7 +157,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  div{
+  .title{
     color: #554e9e;
     font-size: 3rem;
   }
@@ -182,8 +246,8 @@ figure.even{
            position: absolute;
            left: 520px;
            bottom: 180px;
-
         }
+
     }
 
     #thumbnails{
@@ -203,7 +267,6 @@ figure.even{
     #thumbnails img:hover{
         box-shadow: 0 0  10px #fe6601;
     }
-    
 }
 
 </style>

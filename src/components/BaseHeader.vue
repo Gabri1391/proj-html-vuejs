@@ -4,7 +4,7 @@
     <div class="container">
         <div class="header-bar d-flex justify-content-between align-items-center">
             <div class="logo">
-                <img src="../assets/images/logo.png" alt="logo">
+                <img src="/images/logo.png" alt="logo">
             </div>
             <div class="navbar">
                 <ul class="d-flex">
@@ -26,8 +26,8 @@
         </div>
         <button>BUY THIS THEME NOW</button>
         <figure>
-            <img src="../assets/images/slider_slide2_img1.png" alt="kid">
-            <img src="../assets/images/slider_slide2_img2.png" alt="kid">
+            <img src="/images/slider_slide2_img1.png" alt="kid">
+            <img src="/images/slider_slide2_img2.png" alt="kid">
         </figure>
     </section>
     <section class="beige"></section>
@@ -46,13 +46,13 @@ export default {
     data(){
         return{
            items:[
-             {"id": "1", "url": "../assets/icons/home.png", "text": "Home"},
-             {"id": "2", "url": "../assets/icons/document.png", "text": "Pages"},
-             {"id": "3", "url": "../assets/icons/printer.png", "text": "Blog"},
-             {"id": "4", "url": "../assets/icons/cart.png", "text": "Shop"},
-             {"id": "5", "url": "../assets/icons/lab.png", "text": "Shortcode"},
-             {"id": "6", "url": "../assets/icons/chat.png", "text": "Support"},
-             {"id": "7", "url": "../assets/icons/envelope.png", "text": "Contact"}
+             {"id": "1", "url": "/icons/home.png", "text": "Home"},
+            //  {"id": "2", "url": "/icons/document.png", "text": "Pages"},
+            //  {"id": "3", "url": "/icons/printer.png", "text": "Blog"},
+            //  {"id": "4", "url": "/icons/cart.png", "text": "Shop"},
+            //  {"id": "5", "url": "/icons/lab.png", "text": "Shortcode"},
+            //  {"id": "6", "url": "/icons/chat.png", "text": "Support"},
+            //  {"id": "7", "url": "/icons/envelope.png", "text": "Contact"}
              
            ],
 
