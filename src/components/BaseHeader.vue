@@ -9,7 +9,9 @@
             <div class="navbar">
                 <ul class="d-flex">
                     <li v-for="item in items" :key="item.id">
-                        <img :src="item.url" alt="">
+                        <figure>
+                        <img :src="item.url" :alt="item.text">
+                        </figure>
                          {{item.text}}
                     </li>
                 </ul>
@@ -47,12 +49,12 @@ export default {
         return{
            items:[
              {"id": "1", "url": "/icons/home.png", "text": "Home"},
-            //  {"id": "2", "url": "/icons/document.png", "text": "Pages"},
-            //  {"id": "3", "url": "/icons/printer.png", "text": "Blog"},
-            //  {"id": "4", "url": "/icons/cart.png", "text": "Shop"},
-            //  {"id": "5", "url": "/icons/lab.png", "text": "Shortcode"},
-            //  {"id": "6", "url": "/icons/chat.png", "text": "Support"},
-            //  {"id": "7", "url": "/icons/envelope.png", "text": "Contact"}
+             {"id": "2", "url": "/icons/document.png", "text": "Pages"},
+             {"id": "3", "url": "/icons/printer.png", "text": "Blog"},
+             {"id": "4", "url": "/icons/cart.png", "text": "Shop"},
+             {"id": "5", "url": "/icons/lab.png", "text": "Shortcode"},
+             {"id": "6", "url": "/icons/chat.png", "text": "Support"},
+             {"id": "7", "url": "/icons/envelope.png", "text": "Contact"}
              
            ],
 
@@ -64,18 +66,30 @@ export default {
 
 <style lang="scss" scoped>
   .header-bar{
-    height: 100px;
+    height: 120px;
 
     img{
         width: 180px;
     }
 
     .navbar{
+
+        margin-top: 30px;
+
         li{
-            padding: 10px;
+            padding: 20px;
             color: #554e9e;
             font-size: 1.2rem;
         }
+
+        figure{
+            text-align: center;
+            
+            img{
+                width: 35px;
+            }
+        }
+
     }
   }
 
