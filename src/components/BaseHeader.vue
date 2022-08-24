@@ -16,7 +16,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Header bottom -->
     <section class="welcome">
         <div class="welcome-text">
@@ -134,7 +134,7 @@ export default {
         }
 
         .banner{
-            height: 150px;
+            height: 130px;
             background-color: #554e9e;
             position: relative;
             bottom: 80px;
