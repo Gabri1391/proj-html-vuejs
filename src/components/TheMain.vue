@@ -528,8 +528,8 @@ figure.even{
 .blog-button{
 
     background-color:  #d2105d;
+    border: 1px solid #d2105d;
     color: #fff;
-    border: 1px solid  #d2105d;
     width: 200px;
     height: 50px;
     padding: 5px;

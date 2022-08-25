@@ -131,6 +131,11 @@ export default {
             left: 110px;
             top: 350px;
             z-index: 1;
+
+            &:hover{
+                background-color: #554e9e;
+                border: 1px solid #554e9e;
+            }
         }
 
         figure{
@@ -165,6 +170,11 @@ export default {
             width: 200px;
             height: 50px;
             padding: 5px;
+
+            &:hover{
+            background-color: #fff;
+            color: #554e9e;
+            }
             }
 
 
