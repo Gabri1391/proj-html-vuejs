@@ -105,7 +105,7 @@ export default {
 
             .title{
                 font-size: 2rem;
-                color: #fe6601;
+                color:  #d2105d;
             }
 
             .h1{
@@ -121,9 +121,9 @@ export default {
         }
 
         button{
-            background-color: #fe6601;
+            background-color:  #d2105d;
             color: #fff;
-            border: 1px solid #fe6601;
+            border: 1px solid  #d2105d;
             width: 200px;
             height: 50px;
             padding: 5px;

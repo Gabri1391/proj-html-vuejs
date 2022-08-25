@@ -145,11 +145,80 @@
             </div>
         </div>
     </section>
+    <!-- skills section -->
+    <section class="skills bg-light pb-5">
+        <div class="row container">
+           <div class="col-6">
+               <h3 class="pt-5">We have been educating children for over fifteen years. Our goal is to create a place that engages each child.</h3>
+               <div class="text-secondary fs-6 pt-3">Praesent arcu gravida vehicula est node maecenas loareet morbi a dosis luctus. Urna eget lacinia eleifend praesent luctus a arcu quis facilisis venenatis. Aenean interdum, nibh vitae sodales, magna ante feugiat elit maecenas.</div>
+               <ul class="mt-4">
+                  <li class="d-flex pb-3">
+                     <img src="/images/style_1.png" alt="checkbox">
+                      <div class="text-secondary ms-2">Comprehensive reporting on individual achievement</div>
+                  </li>
+                        <li class="d-flex pb-3">
+                     <img src="/images/style_1.png" alt="checkbox">
+                      <div class="text-secondary ms-2">Educational field trips and school presentations</div>
+                  </li>
+                        <li class="d-flex pb-3">
+                     <img src="/images/style_1.png" alt="checkbox">
+                      <div class="text-secondary ms-2">Individual attention in a small-class setting</div>
+                  </li>
+                        <li class="d-flex pb-3">
+                     <img src="/images/style_1.png" alt="checkbox">
+                      <div class="text-secondary ms-2">Learning program with after-school care</div>
+                  </li>
+                        <li class="d-flex pb-3">
+                     <img src="/images/style_1.png" alt="checkbox">
+                      <div class="text-secondary ms-2">Opportunities to carry out scientific investigations</div>
+                  </li>
+                        <li class="d-flex pb-3">
+                     <img src="/images/style_1.png" alt="checkbox">
+                      <div class="text-secondary ms-2">Positive learning environment for your child</div>
+                  </li>
+               </ul>
+           </div>
+           <div class="col-6">
+            <ul class="d-flex flex-wrap mt-5">
+                <li class="d-flex flex-column w-50">
+                    <figure class="xsmall-rounded bg-white">
+                        <img src="/images/toy.png" alt="train">
+                    </figure>
+                    <h4 class="text-center">Learning and Fun</h4>
+                    <p class="text-secondary text-center">Praesent modea est gravida node vehicula luctus.</p>
+                </li>
+                 <li class="d-flex flex-column w-50">
+                    <figure class="xsmall-rounded bg-white">  
+                        <img src="/images/meal.png" alt="meal">
+                    </figure>
+                    <h4 class="text-center ms-2">Healty Meal</h4>
+                    <p class="text-secondary text-center ms-2">Terminal interdum a eleifend maecenas est morbi.</p>
+                </li>
+                <li class="d-flex flex-column w-50">
+                    <figure class="xsmall-rounded bg-white">  
+                        <img src="/images/school.png" alt="school">
+                    </figure>
+                    <h4 class="text-center ms-2">Friendly Place</h4>
+                    <p class="text-secondary text-center ms-2">Terminal interdum a eleifend maecenas est morbi.</p>
+                </li>
+                <li class="d-flex flex-column w-50">
+                    <figure class="xsmall-rounded bg-white">  
+                        <img src="/images/shield.png" alt="shield">
+                    </figure>
+                    <h4 class="text-center ms-2">Childrean safety</h4>
+                    <p class="text-secondary text-center ms-2">Praesent modea est gravida node vehicula luctus.</p>
+                </li>
+            </ul>
+
+           </div>
+        </div>
+    </section>
   </main>
   
 </template>
 
 <script>
+
 export default {
     name:'TheMain'
 
@@ -177,12 +246,12 @@ export default {
     border-radius: 50%;
   }
 
-h3{
+h3,h4{
     color: #554e9e;
 }
 
 figure.odd{
-    background-color: #fe6601;
+    background-color:  #d2105d;
 }
 
 figure.even{
@@ -197,7 +266,7 @@ figure.even{
         height: 50px;
         padding: 5px;
         font-size: 1.2rem;
-        border: #fe6601;
+        border:  #d2105d;
     }
 
     h4{
@@ -216,7 +285,7 @@ figure.even{
     }
 
     .orange{
-        background-color: #fe6601;
+        background-color:  #d2105d;
     }
 
     p{
@@ -234,7 +303,7 @@ figure.even{
         .arrow{
             width: 50px;
             height: 50px;
-            background-color: #fe6601;
+            background-color: #d2105d;
         }
 
         .prev{
@@ -265,10 +334,24 @@ figure.even{
     }
 
     #thumbnails img:hover{
-        box-shadow: 0 0  10px #fe6601;
+        box-shadow: 0 0  10px  #d2105d;
     }
-    
-    
+
+
 }
+
+    .xsmall-rounded{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+        img{
+            width: 40px;
+        }
+    }
+
 
 </style>
