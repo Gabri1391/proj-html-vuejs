@@ -288,6 +288,8 @@
 
 export default {
     name:'TheMain',
+    
+
 }
 </script>
 

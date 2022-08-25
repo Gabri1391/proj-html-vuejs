@@ -18,7 +18,8 @@ export default {
     BaseHeader,
     TheMain,
     BaseFooter
-}
+  }
+
 }
 </script>
 

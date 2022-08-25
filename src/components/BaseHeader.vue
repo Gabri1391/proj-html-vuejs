@@ -3,9 +3,7 @@
     <!-- Header top -->
     <div class="container">
         <div class="header-bar d-flex justify-content-between align-items-center">
-            <div class="logo">
-                <img src="/images/logo.png" alt="logo">
-            </div>
+           <BaseLogo />
             <div class="navbar">
                 <ul class="d-flex">
                     <li v-for="item in items" :key="item.id">
@@ -43,9 +41,11 @@
 </template>
 
 <script>
+  import  BaseLogo from './BaseLogo.vue'
 export default {
+  
     name: 'BaseHeader',
-    data(){
+      data(){
         return{
            items:[
              {"id": "1", "url": "/icons/home.png", "text": "Home"},
@@ -57,10 +57,11 @@ export default {
              {"id": "7", "url": "/icons/envelope.png", "text": "Contact"}
              
            ],
-
         }
+    },
+    components:{
+        BaseLogo
     }
-
 }
 </script>
 
