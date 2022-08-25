@@ -217,9 +217,9 @@
     <section>
         <div class="gallery d-flex">
           <img src="/images/gallery_01.jpg" alt="">
-          <img src="/images/gallery_01.jpg" alt="">
-          <img src="/images/gallery_01.jpg" alt="">
-          <img src="/images/gallery_01.jpg" alt="">
+          <img src="/images/gallery_02.jpg" alt="">
+          <img src="/images/gallery_03.jpg" alt="">
+          <img src="/images/gallery_04.jpg" alt="">
         </div>
         <div class="banner d-flex justify-content-around align-items-center">
         <div>See Our Kindergarten Photo Gallery!</div>
@@ -235,6 +235,50 @@
             <div>Cecil J. Kirk</div>
            </cite>
         </div> 
+    </section>
+    <!-- New content section -->
+    <section class="container new content pb-5">
+       <div class="title text-center mt-5">What's New</div>
+        <h5 class="text-center text-secondary mt-3">Keep up to date with the latest news.</h5>
+        <figure>
+          <img src="/images/header_divider.png" alt="divider">
+        </figure>
+        <div class="box d-flex mt-5">
+            <div class="box-card">
+                <p class="text-secondary">October 03, 2014</p>
+                <div class="square">42</div>
+                <img class="img-fluid" src="/images/blog_09-300x180.jpg" alt="">
+                <h3>Drawing and Painting Lesson</h3>
+                <p>Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum [...]</p>
+                <div class="d-flex mt-3 divider">
+                    <div class="me-3 pt-3"><img class="pe-2" src="/images/author.png" alt="icon"> Anna Brown</div>
+                    <div class="pt-3"><img class="pe-2" src="/images/category.png" alt="icon"> Events and Fun</div>
+                </div>
+            </div>
+             <div class="box-card">
+                <p class="text-secondary">October 03, 2014</p>
+                <div class="square">19</div>
+                <img class="img-fluid" src="/images/blog_10-300x180.jpg" alt="">
+                <h3>Drawing and Painting Lesson</h3>
+                <p>Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum [...]</p>
+                <div class="d-flex mt-3 divider">
+                    <div class="me-3 pt-3"><img class="pe-2" src="/images/author.png" alt="icon"> Anna Brown</div>
+                    <div class="pt-3"><img class="pe-2" src="/images/category.png" alt="icon"> Events and Fun</div>
+                </div>
+            </div>
+             <div class="box-card">
+                <p class="text-secondary">September 20, 2014</p>
+                <div class="square">22</div>
+                <img class="img-fluid" src="/images/blog_08-300x180.jpg" alt="">
+                <h3>Drawing and Painting Lesson</h3>
+                <p>Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum [...]</p>
+                <div class="d-flex mt-3 divider">
+                    <div class="me-3 pt-3"><img class="pe-2" src="/images/author.png" alt="icon"> Anna Brown</div>
+                    <div class="pt-3"><img class="pe-2" src="/images/category.png" alt="icon"> Events and Fun</div>
+                </div>
+            </div>
+        </div>
+        <button class="blog-button">GO TO BLOG <img src="/images/slider_next.png" alt="slider-next"></button>
     </section>
   </main>
 
@@ -378,7 +422,7 @@ figure.even{
 .gallery{
 
     img{
-        width: 400px;
+        width: 25%;
         height: 350px;
     } 
 }
@@ -446,6 +490,51 @@ figure.even{
             
         }
     }
+}
+
+.box-card{
+    width: 350px;
+    margin: 0 10px;
+    position: relative;
+
+  .divider{
+    border-top: 1px solid grey;
+  }
+
+  p{
+    color: grey;
+    font-weight: 600;
+  }
+
+  h3{
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  .square{
+    width: 40px;
+    height: 40px;
+    background-color: #d2105d;
+    color: #fff;
+    position: absolute;
+    left: 260px;
+    top: 5px;
+    text-align: center;
+    line-height: 40px;
+    
+  }
+}
+
+.blog-button{
+
+    background-color:  #d2105d;
+    color: #fff;
+    border: 1px solid  #d2105d;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin: 40px auto;
+    display: block;
 }
 
 
