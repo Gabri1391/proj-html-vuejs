@@ -14,7 +14,7 @@
                 <figure class="odd">
                     <img  class="mt-2" src="/images/schoolbag_alt.png" alt="schoolbag">
                 </figure>
-                <h3>Morbi etos</h3> 
+                <h3>Morbi etos</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta recusandae assumenda aliquid vitae suscipit iusto doloribus nemo laudantium. Mollitia laborum odio quo suscipit id sint illum ullam nemo cumque vero!</p>
             </li>
             <li class="flex-column card-description p-3">
@@ -37,7 +37,7 @@
                 </figure>
                 <h3>Maecenas node</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta recusandae Mollitia laborum odio quo suscipit id sint illum ullam nemo cumque vero!</p>
-            </li> 
+            </li>
         </ul>
     </section>
 
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                    <img class="img-fluid w-50 h-50" src="/images/class_03-690x506.jpg" alt="">
-                </div>  
+                </div>
             </div>
             <div class="col-6">
                 <div class="text-secondary fs-6 pt-5">Praesent arcu gravida vehicula est node maecenas loareet morbi a dosis luctus. Urna eget lacinia eleifend praesent luctus a arcu quis facilisis venenatis. Aenean interdum, nibh vitae sodales, magna ante feugiat elit maecenas.Gravida vehicula est node maecenas loareet morbi.</div>
@@ -141,11 +141,11 @@
                         </div>
                     </div>
                    <img class="img-fluid w-50 h-50" src="/images/class_04-690x506.jpg" alt="">
-                </div>  
+                </div>
             </div>
         </div>
     </section>
-    <!-- skills section -->
+    <!-- Skills section -->
     <section class="skills bg-light pb-5">
         <div class="row container">
            <div class="col-6">
@@ -188,21 +188,21 @@
                     <p class="text-secondary text-center">Praesent modea est gravida node vehicula luctus.</p>
                 </li>
                  <li class="d-flex flex-column w-50">
-                    <figure class="xsmall-rounded bg-white">  
+                    <figure class="xsmall-rounded bg-white">
                         <img src="/images/meal.png" alt="meal">
                     </figure>
                     <h4 class="text-center ms-2">Healty Meal</h4>
                     <p class="text-secondary text-center ms-2">Terminal interdum a eleifend maecenas est morbi.</p>
                 </li>
                 <li class="d-flex flex-column w-50">
-                    <figure class="xsmall-rounded bg-white">  
+                    <figure class="xsmall-rounded bg-white">
                         <img src="/images/school.png" alt="school">
                     </figure>
                     <h4 class="text-center ms-2">Friendly Place</h4>
                     <p class="text-secondary text-center ms-2">Terminal interdum a eleifend maecenas est morbi.</p>
                 </li>
                 <li class="d-flex flex-column w-50">
-                    <figure class="xsmall-rounded bg-white">  
+                    <figure class="xsmall-rounded bg-white">
                         <img src="/images/shield.png" alt="shield">
                     </figure>
                     <h4 class="text-center ms-2">Childrean safety</h4>
@@ -213,15 +213,37 @@
            </div>
         </div>
     </section>
+    <!-- Gallery section -->
+    <section>
+        <div class="gallery d-flex">
+          <img src="/images/gallery_01.jpg" alt="">
+          <img src="/images/gallery_01.jpg" alt="">
+          <img src="/images/gallery_01.jpg" alt="">
+          <img src="/images/gallery_01.jpg" alt="">
+        </div>
+        <div class="banner d-flex justify-content-around align-items-center">
+        <div>See Our Kindergarten Photo Gallery!</div>
+        <button class="info-button"> VIEW GALLERY <img src="/images/slider_next.png" alt="slider-next"></button>
+        </div>
+        <div class="full-screen">
+           <cite class="citation">
+            <figure>
+               <img src="/images/quote_alt.png" alt="quote">
+            </figure>
+            <p class="text-center">I have to say that I have 2 children ages 5 and 2 and have used various daycare's in Kindergarden and this is by far the best I have ever used.</p>
+            <div class="bar"></div>
+            <div>Cecil J. Kirk</div>
+           </cite>
+        </div> 
+    </section>
   </main>
-  
+
 </template>
 
 <script>
 
 export default {
-    name:'TheMain'
-
+    name:'TheMain',
 }
 </script>
 
@@ -291,7 +313,7 @@ figure.even{
     p{
         font-size: 1.2rem;
     }
-    
+
     #slider{
         position: relative;
 
@@ -299,7 +321,7 @@ figure.even{
           width: 570px;
           height: 400px;
         }
-    
+
         .arrow{
             width: 50px;
             height: 50px;
@@ -310,7 +332,7 @@ figure.even{
           position: absolute;
           bottom: 180px;
         }
-        
+
         .next{
            position: absolute;
            left: 520px;
@@ -340,18 +362,91 @@ figure.even{
 
 }
 
-    .xsmall-rounded{
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        margin-top: 30px;
+.xsmall-rounded{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
-        img{
-            width: 40px;
+    img{
+        width: 40px;
+    }
+}
+
+.gallery{
+
+    img{
+        width: 400px;
+        height: 350px;
+    } 
+}
+
+ .banner{
+            height: 150px;
+            background-color: #554e9e;
+
+
+            div{
+                color: #fff;
+                font-size: 2.3rem;
+            }
+
+            .info-button{
+            background-color: #554e9e;
+            color: #fff;
+            border: 1px solid #fff;
+            width: 200px;
+            height: 50px;
+            padding: 5px;
+            }
+
+
+        }
+
+.full-screen{
+    height: 500px;
+    background-image: url(../../public/images/class_02-690x506.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    background-position-x: center;
+    opacity: 80%;
+
+    .citation{
+        color: #fff;
+        width: 400px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+
+        figure{
+            border: 1px solid white;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto;
+            
+            
+        }
+
+        p{
+            width: 70%;
+            font-size: 2.2rem;
+            line-height: 50px;
+            margin: 10px auto;
+        }
+
+        .bar{
+            width: 50px;
+            height: 1px;
+            background-color: #fff;
+            margin: 20px auto;
+            
         }
     }
+}
 
 
 </style>

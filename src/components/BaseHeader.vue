@@ -35,7 +35,7 @@
     <section class="beige"></section>
      <div class="banner d-flex justify-content-around align-items-center">
         <div>How to Enroll Your Child into a Class?</div>
-        <button class="info-button"> LEARN MORE  ></button>
+        <button class="info-button"> LEARN MORE  <img src="/images/slider_next.png" alt="slider-next"></button>
     </div>
    
 
