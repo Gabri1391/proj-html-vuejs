@@ -97,7 +97,7 @@
                     <div class="group">
                         <div class="fs-3 ps-3 pt-3">Little Lamb</div>
                         <div class="fs-6 ps-3 pb-5">Class Name</div>
-                        <div class=" d-flex pt-2">
+                        <div class=" d-flex">
                             <div class="ps-3 pe-5 pt-1">12-24 <br> Months old </div>
                             <div class="ps-6 pt-1">9 <br> Class size</div>
                         </div>
@@ -109,7 +109,7 @@
                     <div class="group">
                         <div class="fs-3 ps-3 pt-3">Tenderhearts</div>
                         <div class="fs-6 ps-3 pb-5">Class Name</div>
-                        <div class=" d-flex pt-2">
+                        <div class=" d-flex">
                             <div class="ps-3 pe-5 pt-1">3-4 <br> Years old </div>
                             <div class="ps-6 pt-1">9 <br> Class size</div>
                         </div>
@@ -123,7 +123,7 @@
                     <div class="group">
                         <div class="fs-3 ps-3 pt-3">Bouncy Bears</div>
                         <div class="fs-6 ps-3 pb-5">Class Name</div>
-                        <div class=" d-flex pt-2">
+                        <div class=" d-flex">
                             <div class="ps-3 pe-5 pt-1">2-3 <br> Years old </div>
                             <div class="ps-6 pt-1">9 <br> Class size</div>
                         </div>
@@ -135,7 +135,7 @@
                     <div class="group">
                         <div class="fs-3 ps-3 pt-3">Shining Stars</div>
                         <div class="fs-6 ps-3 pb-5">Class Name</div>
-                        <div class=" d-flex pt-2">
+                        <div class=" d-flex">
                             <div class="ps-3 pe-5">4-5 <br> Years old </div>
                             <div class="ps-6 ">20 <br> Class size</div>
                         </div>
