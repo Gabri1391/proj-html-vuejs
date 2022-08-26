@@ -81,6 +81,11 @@ export default {
             padding: 20px;
             color: #554e9e;
             font-size: 1.2rem;
+
+            &:hover{
+
+            background-color: #d2105d;
+            }
         }
 
         figure{
@@ -90,6 +95,7 @@ export default {
                 width: 35px;
             }
         }
+   
 
     }
   }

@@ -90,28 +90,28 @@
           <img src="/images/header_divider.png" alt="divider">
         </figure>
 
-        <div class="row ">
+        <div class="row groups">
             <div class="col-6">
                 <h3 class="pt-5">We provived four classes from nine to twenty childrent each aged from twelve month to five years of age. </h3>
                 <div class="d-flex flex-row mt-5">
-                    <div class="bg-warning w-50 h-50">
-                        <div class="text-white fs-3 ps-3 pt-3">Little Lamb</div>
-                        <div class="text-secondary fs-6 ps-3 pb-5">Class Name</div>
+                    <div class="group">
+                        <div class="fs-3 ps-3 pt-3">Little Lamb</div>
+                        <div class="fs-6 ps-3 pb-5">Class Name</div>
                         <div class=" d-flex pt-2">
-                            <div class="ps-3 pe-5 pt-1 text-white">12-24 <br> Months old </div>
-                            <div class="ps-6 text-white pt-1">9 <br> Class size</div>
+                            <div class="ps-3 pe-5 pt-1">12-24 <br> Months old </div>
+                            <div class="ps-6 pt-1">9 <br> Class size</div>
                         </div>
                     </div>
                    <img class="img-fluid w-50 h-50" src="/images/gallery_04-690x506.jpg" alt="">
                 </div>
 
                  <div class="d-flex flex-row mt-5">
-                    <div class="w-50 h-50 bg-warning">
-                        <div class="text-white fs-3 ps-3 pt-3">Tenderhearts</div>
-                        <div class="text-secondary fs-6 ps-3 pb-5">Class Name</div>
+                    <div class="group">
+                        <div class="fs-3 ps-3 pt-3">Tenderhearts</div>
+                        <div class="fs-6 ps-3 pb-5">Class Name</div>
                         <div class=" d-flex pt-2">
-                            <div class="ps-3 pe-5 text-white pt-1">3-4 <br> Years old </div>
-                            <div class="ps-6 text-white pt-1">9 <br> Class size</div>
+                            <div class="ps-3 pe-5 pt-1">3-4 <br> Years old </div>
+                            <div class="ps-6 pt-1">9 <br> Class size</div>
                         </div>
                     </div>
                    <img class="img-fluid w-50 h-50" src="/images/class_03-690x506.jpg" alt="">
@@ -120,24 +120,24 @@
             <div class="col-6">
                 <div class="text-secondary fs-6 pt-5">Praesent arcu gravida vehicula est node maecenas loareet morbi a dosis luctus. Urna eget lacinia eleifend praesent luctus a arcu quis facilisis venenatis. Aenean interdum, nibh vitae sodales, magna ante feugiat elit maecenas.Gravida vehicula est node maecenas loareet morbi.</div>
                  <div class="d-flex flex-row mt-5">
-                    <div class="bg-warning w-50 h-50">
-                        <div class="text-white fs-3 ps-3 pt-3">Bouncy Bears</div>
-                        <div class="text-secondary fs-6 ps-3 pb-5">Class Name</div>
+                    <div class="group">
+                        <div class="fs-3 ps-3 pt-3">Bouncy Bears</div>
+                        <div class="fs-6 ps-3 pb-5">Class Name</div>
                         <div class=" d-flex pt-2">
-                            <div class="ps-3 pe-5 text-white pt-1">2-3 <br> Years old </div>
-                            <div class="ps-6 text-white pt-1">9 <br> Class size</div>
+                            <div class="ps-3 pe-5 pt-1">2-3 <br> Years old </div>
+                            <div class="ps-6 pt-1">9 <br> Class size</div>
                         </div>
                     </div>
                    <img class="img-fluid w-50 h-50" src="/images/class_02-690x506.jpg" alt="">
                 </div>
 
                  <div class="d-flex flex-row mt-5">
-                    <div class="bg-warning w-50 h-50">
-                        <div class="text-white fs-3 ps-3 pt-3">Shining Stars</div>
-                        <div class="text-secondary fs-6 ps-3 pb-5">Class Name</div>
+                    <div class="group">
+                        <div class="fs-3 ps-3 pt-3">Shining Stars</div>
+                        <div class="fs-6 ps-3 pb-5">Class Name</div>
                         <div class=" d-flex pt-2">
-                            <div class="ps-3 pe-5 text-white">4-5 <br> Years old </div>
-                            <div class="ps-6 text-white">20 <br> Class size</div>
+                            <div class="ps-3 pe-5">4-5 <br> Years old </div>
+                            <div class="ps-6 ">20 <br> Class size</div>
                         </div>
                     </div>
                    <img class="img-fluid w-50 h-50" src="/images/class_04-690x506.jpg" alt="">
@@ -294,6 +294,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
   .title{
     color: #554e9e;
     font-size: 3rem;
@@ -326,6 +327,7 @@ figure.even{
     background-color: #554e9e;
 }
 
+// SLIDER SECTION
 .slider-section{
     background-color: #F5F5F5;
 
@@ -421,6 +423,14 @@ figure.even{
     }
 }
 
+//  GROUP CARD
+ .group{
+        background-color: #554e9e;
+        width: 220px;
+        color: #fff;
+    }
+
+// GALLERY SECTION
 .gallery{
 
     img{
